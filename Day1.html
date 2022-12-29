@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Day 1</title>
+    <script>
+// Check Wheather a Person is Eligible for driving License using Conditionals & Switch Case
+
+let age = 5;
+     if(age>18){
+         console.log("Eligible for License");
+     }
+     else if(age==18){
+         console.log("Eligible for Learning License Only")
+     }
+     else{
+         console.log("Not Eligible for License");
+     }
+
+    switch (age) {
+        case 18:
+            console.log("Eligible for Learning License")
+            break;
+
+        case age > 18:
+            console.log("Eligible for License")
+
+        default:
+            console.log("Not Eligible for License")
+            break;
+    }
+
+    </script>
+</head>
+<body>
+</body>
+</html>
