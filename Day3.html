@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Day 3</title>
+
+    <script>
+        //Write a JavaScript function to validate whether a given value is number or not
+
+        function is_number(value) {
+            return !isNaN(value) && toString.call(value) === '[object Number]';
+        }
+
+        console.log(is_number(NaN));
+
+        console.log(is_number(42.32));
+
+        console.log(is_number(72));
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
